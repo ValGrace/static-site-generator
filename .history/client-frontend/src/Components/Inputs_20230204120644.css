@@ -1,0 +1,10 @@
+.signupForm {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+}
+input, #sign {
+    width: 80vw;
+    height: 2em;
+}

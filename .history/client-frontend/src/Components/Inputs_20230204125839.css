@@ -1,0 +1,27 @@
+.signupForm {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+}
+input, button {
+    width: 80vw;
+    height: 3em;
+    background-color: transparent;
+}
+
+#sign {
+   width: 40vw;
+}
+
+.toggleForms {
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 0.9em;
+}
+
+.type-btn {
+    background-color: blue;
+    border: none;
+    width: 30vw;
+}
