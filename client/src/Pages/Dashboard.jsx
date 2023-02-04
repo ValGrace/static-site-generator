@@ -6,8 +6,8 @@ const initialState = {page : <Login />}
 function reducer(state, action) {
     switch (action.type) {
         case 'loginpage':
-            return initialState
-        case 'signuppagge':
+            return {page: <Login />}
+        case 'signuppage':
             return {page: <Signup />}  
         default:
             return initialState  
